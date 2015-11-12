@@ -1,4 +1,4 @@
-<img src="SpaceInvaders.png" align="right" height"50px" width="50px" />
+<img src="SpaceInvaders.png" align="right" height"150px" width="150px" />
 # SpaceInvaders
 
 >Space Invaders-like game developed in HTML5 and Javascript.
