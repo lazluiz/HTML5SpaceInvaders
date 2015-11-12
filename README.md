@@ -1,4 +1,4 @@
-<img src="SpaceInvaders.png" align="right" height"150px" width="150px" />
+<img src="SpaceInvaders.png" align="right" height"200px" width="200px" />
 # SpaceInvaders
 >Space Invaders-like game developed in HTML5 and Javascript.
 
@@ -21,7 +21,7 @@
 - The game has a responsive layout, which adapts when you resize your browser.
 
 ## Code
-- The game logic consists of 6 files:
+The game logic consists of 6 files:
 
 **helpers.js** has some helping classes and functions which may work for any other 2D game.
 
