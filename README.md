@@ -2,6 +2,9 @@
 # SpaceInvaders
 >Space Invaders-like game developed in HTML5 and Javascript.
 
+This game was developed with HTML5 and canvas, using Javascript as the language to manipulate the canvas and game logic.
+It's quite simple, you control a tank/ship which fires bullets/lasers to protect yourself from Aliens and Bosses - whose also fires lasers. If they hit you, you die and the game restarts. The main objective is to kill those Aliens and make the highest score.
+
 ## Commands
 **[Left Arrow]** - Moves to the left.
 
