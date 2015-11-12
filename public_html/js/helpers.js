@@ -61,10 +61,9 @@ Screen.prototype.drawBullet = function (bullet) {
     this.ctx.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
 };
 
-Screen.prototype.restart = function (w, h) {
+Screen.prototype.update = function (w, h) {
     this.canvas.width = this.width = w;
-    this.canvas.height = this.height = h;
-    this.ctx.clearRect(0, 0, this.width, this.height);
+    this.canvas.height = this.height = h;    
 };
 
 /**
@@ -142,4 +141,4 @@ Number.prototype.pad = function (size) {
         s = "0" + s;
     }
     return s;
-}
+};
