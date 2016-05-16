@@ -93,10 +93,6 @@ function update() {
 
 /**
  * Update player
- * 
- * [CHALLENGE]
- * The spaceship should move only to the left and right and have borders as their limits.
- * [/CHALLENGE]
  */
 function updatePlayer() {
     // Move player
@@ -185,11 +181,6 @@ function updateAliens() {
 
 /**
  * Check bullet hit and position
- * 
- * [CHALLENGE]
- * The spaceship should be able to fire bullets. 
- * The bullets should go from the top of the spaceship to the top of the game display if no enemies where shot.
- * [/CHALLENGE]
  */
 function updateBullets() {
     // Player bullets
@@ -260,12 +251,7 @@ function updateScreen() {
 }
 
 /**
- * Add aliens to the near top center of the display 
- * 
- * [CHALLENGE]
- * The enemies should be randomly placed in the game display.
- * Maximum of 5 enemies should be in the display at the same time.
- * [/CHALLENGE]
+ * Add aliens to the near top center of the display
  */
 function addAlien() {
     if (listAliens.length < MAX_ENEMIES) {
@@ -322,11 +308,6 @@ function render() {
     }
 
     // Fade out dead aliens
-    // 
-    // [CHALLENGE] 
-    // If a bullet hits a enemy, the enemy should fade away slowly from the game display 
-    // and as soon it fades out completely, a new one should appear in a random position
-    // [/CHALLENGE]
     for (var i = 0, len = graveyard.length; i < len; i++) {
         var alien = graveyard[i];
         if (alien && alien.health > 0) {
