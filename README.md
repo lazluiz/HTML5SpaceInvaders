@@ -1,4 +1,5 @@
-<img src="SpaceInvaders.png" align="right" height"200px" width="200px" />
+<p><img src="https://github.com/lazluiz/HTML5SpaceInvaders/blob/master/SpaceInvaders.png" align="right" height"200px" width="200px" / </p>
+  
 # HTML5 SpaceInvaders
 >Space Invaders-like game developed in HTML5 and Javascript.
 
